@@ -1,0 +1,7 @@
+# interactivebroker url list
+# source https://www.ibkrguides.com/kb/en-us/article-2816.htm
+
+DOMAIN-KEYWORD,interactivebrokers
+DOMAIN-KEYWORD,ibllc
+DOMAIN-KEYWORD,ibkr
+DOMAIN-SUFFIX,s3.amazonaws.com
