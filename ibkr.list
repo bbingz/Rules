@@ -5,4 +5,5 @@ DOMAIN-KEYWORD,interactivebrokers
 DOMAIN-KEYWORD,ibllc
 DOMAIN-KEYWORD,ibkr
 DOMAIN-SUFFIX,s3.amazonaws.com
+DOMAIN-SUFFIX,go-mpulse.net
 PROCESS-NAME,"IBKR Desktop"
