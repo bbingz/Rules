@@ -1,9 +1,90 @@
-# interactivebroker url list
-# source https://www.ibkrguides.com/kb/en-us/article-2816.htm
+# Overseas broker and prediction-market URL list
+# Sources:
+# - https://www.ibkrguides.com/kb/en-us/article-2816.htm
+# - https://github.com/Arthur-vx/broker-rules
+# - Official sites/docs and observed app traffic, verified 2026-07-20
 
+# Interactive Brokers
 DOMAIN-KEYWORD,interactivebrokers
 DOMAIN-KEYWORD,ibllc
 DOMAIN-KEYWORD,ibkr
 DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,go-mpulse.net
 PROCESS-NAME,"IBKR Desktop"
+
+# Firstrade
+DOMAIN-SUFFIX,firstrade.com
+DOMAIN-SUFFIX,firstrade.net
+DOMAIN-SUFFIX,firstrade.info
+DOMAIN-SUFFIX,firstrade.us
+DOMAIN-SUFFIX,firsttrade.com
+DOMAIN-SUFFIX,first-trade.com
+
+# BBAE
+DOMAIN-SUFFIX,bbae.com
+DOMAIN-SUFFIX,bbaepro.com
+
+# Polymarket
+DOMAIN-SUFFIX,polymarket.com
+DOMAIN-SUFFIX,polymarket.us
+DOMAIN,polymarket-upload.s3.us-east-2.amazonaws.com
+
+# RockFlow
+DOMAIN-SUFFIX,rockflow.ai
+DOMAIN-SUFFIX,rockflow.tech
+
+# Longbridge / LONGPORT
+DOMAIN-SUFFIX,lbctrl.com
+DOMAIN-SUFFIX,lbkrs.com
+DOMAIN-SUFFIX,wbrks.com
+DOMAIN-SUFFIX,longportapp.cn
+DOMAIN-SUFFIX,longportapp.com
+DOMAIN-SUFFIX,longbridgeapp.com
+DOMAIN-SUFFIX,longbridge.hk
+DOMAIN-SUFFIX,longbridgehk.com
+DOMAIN-SUFFIX,longbridge.com
+DOMAIN-SUFFIX,longbridge.cn
+DOMAIN-SUFFIX,longbridge.global
+DOMAIN-SUFFIX,longbridge.cloud
+DOMAIN-SUFFIX,longbridge.sg
+DOMAIN-SUFFIX,longportwhale.com
+
+# Futu / Futubull / moomoo
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futu.link
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futuhn.com
+DOMAIN-SUFFIX,futu.com
+DOMAIN-SUFFIX,futu0.com
+DOMAIN-SUFFIX,futu1.com
+DOMAIN-SUFFIX,futu2.com
+DOMAIN-SUFFIX,futu3.com
+DOMAIN-SUFFIX,futu4.com
+DOMAIN-SUFFIX,futu5.com
+DOMAIN-SUFFIX,futu6.com
+DOMAIN-SUFFIX,futu7.com
+DOMAIN-SUFFIX,futu8.com
+DOMAIN-SUFFIX,futu9.com
+DOMAIN-SUFFIX,futuinc.com
+DOMAIN-SUFFIX,futuniuniu.com
+DOMAIN-SUFFIX,futu.cn
+DOMAIN-SUFFIX,futu.hk
+DOMAIN-SUFFIX,futufin.com
+DOMAIN-SUFFIX,futuhk2.com
+DOMAIN-SUFFIX,futuholdings.com
+DOMAIN-SUFFIX,futuesop.com
+DOMAIN-SUFFIX,futubull.cn
+DOMAIN-SUFFIX,futuchain.com
+DOMAIN-SUFFIX,futustatic.com
+DOMAIN-SUFFIX,futuau.com
+DOMAIN-SUFFIX,futuhkapp.com
+DOMAIN-SUFFIX,fututrade.com
+DOMAIN-SUFFIX,fututrustee.com
+DOMAIN-SUFFIX,futuie.com
+DOMAIN-SUFFIX,fututrust.com
+DOMAIN-SUFFIX,futusg.com
+DOMAIN-SUFFIX,moomoo.com
+DOMAIN-SUFFIX,moomoo.com.hk
+DOMAIN-SUFFIX,moomoobull.com
+DOMAIN-SUFFIX,moomooequity.com
+DOMAIN-SUFFIX,moomootrustee.com
