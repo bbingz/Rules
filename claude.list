@@ -1,0 +1,13 @@
+# Claude and Anthropic URL/process list
+# Sources:
+# - https://docs.anthropic.com/en/docs/claude-code/corporate-proxy
+# - SukkaLab AI ruleset and observed local Surge traffic
+# PROCESS-NAME rules apply on Surge Mac and are ignored by Surge iOS.
+
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+PROCESS-NAME,/Applications/Claude.app/
+PROCESS-NAME,claude
