@@ -12,6 +12,13 @@ DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,go-mpulse.net
 PROCESS-NAME,"IBKR Desktop"
 
+# Schwab
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,thinkorswim.com
+DOMAIN-SUFFIX,schwabapi.com
+DOMAIN-SUFFIX,schwabcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+
 # Firstrade
 DOMAIN-SUFFIX,firstrade.com
 DOMAIN-SUFFIX,firstrade.net
