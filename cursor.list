@@ -1,0 +1,22 @@
+# Cursor domains and macOS process paths
+# Sources:
+# - https://cursor.com/security
+# - Cursor 3.16.2 product metadata and network-diagnostics assets
+# - Observed Surge traffic on the managed Macs, verified 2026-08-16
+#
+# Shared providers such as GitHub, npm, Vercel, WorkOS, and broad AWS domains
+# are intentionally excluded.
+
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursor-marketplace.com
+DOMAIN-SUFFIX,cursor.so
+DOMAIN-SUFFIX,cursorvm.com
+DOMAIN,cursor.blob.core.windows.net
+DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+
+# PROCESS-NAME rules apply on Surge Mac and are ignored by Surge iOS.
+PROCESS-NAME,/Applications/Cursor.app/
+PROCESS-NAME,/Users/bing/.local/share/cursor-agent/
